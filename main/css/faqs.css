@@ -1,0 +1,178 @@
+
+    *{
+        font-family: "Quicksand", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: normal;
+        font-style: normal;
+        text-decoration: none;
+    }
+    html, body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    
+    .body {
+        font-family: "Quicksand", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: normal;
+        font-style: normal;
+        background-color: #D4F1F4;
+    }
+    
+    /*
+    Color 1 : #05445E : Navy Blue
+    Color 2 : #189AB4 : Blue Grotto
+    Color 3 : #75E6DA : Blue Green
+    Color 4 : #D4F1F4 : Baby Blue
+    */
+    .logo-img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    .user {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .notification {
+        padding: 25px 25px 25px 10px;
+    }
+    
+    .banner-photo-div {
+        width: 100%;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.ibb.co/jG8y86c/concept-1868728.jpg);
+        height: 305px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .banner-text{
+        text-align: center;
+        color:#D4F1F4 ;
+    }
+    .apply-button{
+        width: 180px;
+        height: 55px;
+        display: block;
+        margin: auto;
+        border-radius: 35px;
+        margin-top: 25px;
+        font-weight: 500;
+        background-color:#189AB4 ;
+        border-color: transparent;
+        padding-right: 5px;
+        transition-duration: 0.3s;
+    }
+    .apply-button:hover{
+        background-color:#05445E ;
+    }
+    .social-links{
+        font-weight: 600;
+        text-decoration: none;
+    }
+    .cards{
+        width: 400px
+    }
+    .navbar-logo img {
+        max-width: 100%;
+        height: auto;
+    }
+    .programs{
+        display: block;
+        margin: auto;
+        cursor:pointer;
+    }
+    footer {
+        background-color: #05445E;
+        color: white;
+        padding: 20px 0;
+    }
+    .footer-container {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+    .footer-section {
+        flex: 1;
+        padding: 10px;
+    }
+    .footer-section h4 {
+        margin-bottom: 10px;
+    }
+    .footer-section a {
+        color: #fff;
+        text-decoration: none;
+    }
+    .footer-section a:hover {
+        text-decoration: underline;
+    }
+    .footer-bottom {
+        text-align: center;
+    }
+    .text-faqs{
+        text-decoration: none;
+        font-size: 27px;
+        color: black;
+    }
+    .card .card-body{
+        background-color: white;
+        
+    }
+    .card {
+        background-color: transparent !important; 
+        border-color: transparent;
+    }
+    .arrow{
+        display: block;
+        margin-left: auto;
+    }
+    .collapse-text{
+        display: flex;
+    }
+    .text-faqs {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .text-faqs i {
+        margin-left: auto;
+    }
+    .collapse .card {
+        border: none;
+        box-shadow: none;
+        border-color: transparent;
+    }
+    .notification {
+        position: relative;
+        padding: 25px 25px 25px 10px;
+    }
+    
+    .notification-link {
+        color: black;
+        text-decoration: none;
+        position: relative;
+    }
+    
+    .notification .badge {
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(50%, -50%);
+        font-size: 0.6rem; 
+        padding: 0.3em 0.4em; 
+        line-height: 1; 
+    }   
+    #notificationDropdown{
+        width: 560px !important;
+    }
+    

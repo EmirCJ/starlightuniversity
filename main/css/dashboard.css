@@ -1,0 +1,295 @@
+
+*{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+}
+body {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+}
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.buttons {
+    width: 435px;
+    height: 55px;
+    display: block;
+    margin: auto;
+    border-radius: 35px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: 500;
+    background-color: #189AB4;
+    border-color: transparent;
+    padding-right: 5px;
+    transition-duration: 0.3s;
+}
+.big-text {
+    text-align: center;
+}
+.small-text {
+    text-align: center;
+}
+.or {
+    text-align: center;
+}
+.bgg {
+    background-image: url(https://i.ibb.co/xFcZ94K/college-student-3500990.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.hrdivider {
+    position: relative;
+    margin: 40px 0;
+    text-align: center;
+}
+.hrdivider hr {
+    border: none;
+    border-top: 1px solid #000000;
+    margin: 0;
+}
+.hrdivider span {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #D4F1F4;
+    padding: 0 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.buttons:hover {
+    background-color: #05445E;
+}
+.logo-img {
+    width: 80px;
+    height: 80px;
+}
+.uni-name {
+    align-self: center;
+    font-weight: 400;
+    font-family: "Bebas Neue", sans-serif;
+    text-decoration: none;
+    color: #000000;
+    transition: opacity 0.5s ease-in-out;
+}
+.uni-name .hidden {
+    opacity: 0;
+}
+.email-div, .password-div {
+    padding: 25px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    width: 100%;
+    max-width: 500px;
+    text-align: left;
+}
+.input-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.login-input {
+    border: transparent;
+    width: 100%;
+    margin-left: 10px;
+}
+.login-input:focus {
+    outline: none;
+}
+.login-label {
+    font-weight: 600;
+}
+#visibility {
+    cursor: pointer;
+    height: 15px;
+    margin-left: 10px;
+}
+.login-form {
+    align-content: center;
+    width: 100%;
+    max-width: 500px;
+}
+.small-text-admin{
+    text-align: center;
+    text-decoration: none;
+    color: #189AB4;
+    transition-duration: 0.3s;
+   }
+   .small-text-admin:hover{
+    color: #05445E;
+   }
+   .user-pic{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.navbar-pic{
+    display: block;
+    margin-left: auto;
+    padding-right: 15px;
+}
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: rgb(29, 29, 29);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  
+ 
+  .sidebar a.active {
+    background-color: #189AB4;
+    color: white;
+  }
+  
+ 
+  .sidebar a:hover:not(.active) {
+    background-color: #05445E;
+    color: white;
+  }
+ 
+  div.content {
+    margin-left: 200px;
+    height: 1000px;
+  }
+  
+
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+ 
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+    
+  }
+  .nav-item{
+    text-decoration: none;
+    padding-left: 10px;
+  }
+
+
+  .uni-home{
+    padding-right: 24px !important;
+  }
+  .sasas{
+    background-color: rgb(176, 176, 176);
+    border-radius: 25px;
+    margin-left: 10px;
+    transition-duration: 0.3s;
+  }
+.sasas:hover{
+    background-color: rgb(73, 73, 73);
+}
+.fa-solid{
+    padding-right: 3px;
+}
+.Announcements-div{
+    padding: 15px;
+}
+.programs-div{
+    padding: 15px;
+}
+.admins-div{
+    padding: 15px;
+}
+.db-title{
+    text-align: center;
+}
+.dashboard-input {
+    width: 80%;
+}
+.dashboard-input:focus {
+    outline: none;
+}
+.dashboard-label {
+    font-weight: 600;
+}
+.user-card-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.user-card {
+    flex: 1;
+    margin-right: 15px;
+}
+.make-admin-btn {
+    white-space: nowrap;
+    background-color: #189AB4 !important;
+    transition-duration: 0.3s;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+}
+.delete-admin-btn {
+    white-space: nowrap;
+    background-color: #b41818 !important;
+    transition-duration: 0.3s;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    color: white !important;
+}
+.make-admin-btn:hover {
+    background-color: #05445E !important;
+}
+
+.delete-admin-btn:hover {
+    background-color: #5e0505 !important;
+}
+.posted-Announcements{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.edit-btn{
+white-space: nowrap;
+background-color: #189AB4 !important;
+transition: 0.5s;
+margin-left: 5px !important;
+margin-right: 5px !important;
+color: white !important;
+}
+
+.edit-btn:hover{
+    background-color: #05445E !important;
+}
+.subjects{
+    color: #189AB4;
+    font-size: 12px !important;
+}
+
